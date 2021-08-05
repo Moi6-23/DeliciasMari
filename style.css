@@ -73,7 +73,7 @@ div a{
 }
 .scroll-acerca{
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 400px;
     width: 100px;
     height: 100px;
@@ -134,7 +134,7 @@ div a{
 }
  .products{
     width: 100vw;
-    height: 1040px;
+    height: 870px;
     background-color: #e98ea249;
 }
 .products h1{
@@ -173,7 +173,102 @@ div a{
     font-size: 1.6rem;
     color: #289914;
 }
- 
+.scroll-contacto{
+    position: absolute;
+    top: -55px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    visibility: hidden; 
+
+}
+.contactoMap{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+}
+.title-contacto{
+    padding-top: 40px;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: open sans;
+    text-align: center;
+    color: #35D3F5;
+}
+.contacto{
+    position: relative;
+    width: 500px;
+    height: 240px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.InputUp{
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    border-radius: 3px;
+    top: 10px;
+    border: 2px solid rgba(60, 140, 206, 0.308);
+    box-shadow: 0px 0px 5px #f16e8a86;
+    padding-left: 10px;
+
+}
+.InputUp:nth-child(1){
+    left: 33px;
+}
+.InputUp:nth-child(2){
+    right: 33px;
+}
+.MensajeDown{
+    display: block;
+    width: 430px;
+    height: 80px;
+    margin: 10px auto;
+    margin-top: 65px;
+    border-radius: 3px;
+    border: 2px solid rgba(60, 140, 206, 0.308);
+    box-shadow: 0px 0px 5px #f16e8a86;
+    padding-left: 10px;
+    vertical-align: top;
+    
+} 
+.InputUp::placeholder{
+    padding-left: 2px;
+}
+.MensajeDown::placeholder{
+    padding-left: 2px;
+}
+.contacto button{
+    display: block;
+    width: 100px;
+    height: 35px;
+    background-color:#35D3F5;
+    margin: 15px auto;
+    font-size: 1.8rem;
+    font-family: open sans;
+    font-weight: 400;
+    color: white;
+    border-radius: 2.5px;
+    border: none;
+    box-shadow: 0px 0px 5px #f16e8a86;
+    cursor: pointer;
+}
+.contacto button:hover{
+    border: 2px solid rgba(60, 140, 206, 0.308);
+    box-shadow: 0px 0px 5px #35D3F5;
+}
+
+.inputHover:focus{
+    outline: none;
+    border: 3px solid rgba(60, 140, 206, 0.308);
+    box-shadow: 0px 0px 9px #f16e8a86;
+    
+}
+
+
+
 
 
 
